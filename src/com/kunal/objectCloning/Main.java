@@ -5,5 +5,9 @@ public class Main {
         Human kunal = new Human(32, "Kunal Kushwaha");
         Human twin = (Human) kunal.clone();
         System.out.println(twin.age);
+
+
+        Car car = new Car();
+        System.out.println(car);
     }
 }
